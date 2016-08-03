@@ -1,0 +1,4 @@
+export const UPDATE_LIST = 'UPDATE_LIST';
+export const ADD_ITEM_COUNT = 'ADD_ITEM_COUNT';
+export const REDUCE_ITEM_COUNT = 'REDUCE_ITEM_COUNT';
+export const CLEAR_SELECT = 'CLEAR_SELECT';
