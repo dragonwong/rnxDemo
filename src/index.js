@@ -24,5 +24,6 @@ import './views/reduxList';
 import './views/reduxDetail';
 // components
 import './views/components';
+import './views/compAccordion';
 import './views/compDialog';
 import './views/compNumber';

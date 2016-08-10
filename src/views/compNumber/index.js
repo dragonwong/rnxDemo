@@ -7,6 +7,7 @@ import {
 import {
     STYLE_ALL,
     STYLE_ITEM,
+    STYLE_BUTTON,
 } from '../../common/styles.js';
 
 import Number from 'rnx-ui-number';
@@ -30,14 +31,7 @@ class CompNumber extends QView {
     styles = {
         all: STYLE_ALL,
         item: STYLE_ITEM,
-        button: {
-            padding: 4,
-            alignItems: 'center',
-            borderRadius: 5,
-            borderWidth: 1,
-            borderColor: '#ccc',
-            backgroundColor: "#fff",
-        },
+        button: STYLE_BUTTON,
         title: {
             borderBottomColor: '#C9C9C9',
             paddingTop: 5,

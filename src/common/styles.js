@@ -14,3 +14,12 @@ export const STYLE_ITEM = {
     alignItems: 'center',
     backgroundColor: '#fff',
 }
+
+export const STYLE_BUTTON = {
+    padding: 4,
+    alignItems: 'center',
+    borderRadius: 5,
+    borderWidth: 1,
+    borderColor: '#ccc',
+    backgroundColor: "#fff",
+};
