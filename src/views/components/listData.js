@@ -11,6 +11,12 @@ let listData = ds.cloneWithRows([
         },
     },
     {
+        text: '日历 Canlendar',
+        onPress() {
+            RNPlus.open('CompCalendar');
+        },
+    },
+    {
         text: '弹框 Dialog',
         onPress() {
             RNPlus.open('CompDialog');

@@ -4,10 +4,11 @@ import reducer from './reducers'
 RNPlus.defaults.hybridId = 'rnxDemo';
 // 配置应用名
 RNPlus.defaults.appName = 'rnxDemo';
-console.log(RNPlus.defaults)
 // 配置首页
-// RNPlus.defaults.indexView = 'CompNumber';
+// RNPlus.defaults.indexView = 'CompAccordion';
+// RNPlus.defaults.indexView = 'CompCalendar';
 // RNPlus.defaults.indexView = 'CompDialog';
+// RNPlus.defaults.indexView = 'CompNumber';
 // RNPlus.defaults.indexView = 'Components';
 // redux 配置项
 RNPlus.defaults.redux = {
