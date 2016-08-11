@@ -17,6 +17,12 @@ let listData = ds.cloneWithRows([
         },
     },
     {
+        text: '轮播 Carousel',
+        onPress() {
+            RNPlus.open('CompCarousel');
+        },
+    },
+    {
         text: '弹框 Dialog',
         onPress() {
             RNPlus.open('CompDialog');

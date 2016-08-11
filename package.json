@@ -10,6 +10,7 @@
     "react-native": "git+ssh://git@git.jimubox.com/react-native/pintec-react-native.git#demo",
     "rnx-ui-accordion": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-accordion.git",
     "rnx-ui-calendar": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-calendar.git",
+    "rnx-ui-carousel": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-carousel.git",
     "rnx-ui-dialog": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-dialog.git",
     "rnx-ui-number": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-number.git"
   }

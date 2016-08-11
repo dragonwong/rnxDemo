@@ -1,8 +1,7 @@
-'use strict';
-
 import {
     View,
 } from 'react-native';
+
 import {
     STYLE_ALL,
 } from '../../common/styles.js';
@@ -62,6 +61,10 @@ class CompCalendar extends QView {
         all: STYLE_ALL,
     };
 
+    alertDate(d) {
+        alert(d.date)
+    }
+    
     render() {
         return (
             <View class="all">
@@ -80,10 +83,6 @@ class CompCalendar extends QView {
                 </View>
             </View>
         );
-    }
-
-    alertDate(d) {
-        alert(d.date)
     }
 }
 

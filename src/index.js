@@ -26,5 +26,6 @@ import './views/reduxDetail';
 import './views/components';
 import './views/compAccordion';
 import './views/compCalendar';
+import './views/compCarousel';
 import './views/compDialog';
 import './views/compNumber';
