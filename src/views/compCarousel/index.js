@@ -46,13 +46,13 @@ class CompCarousel extends QView {
                         <View class="page">
                             <Image
                                 class="img"
-                                source={{uri: 'http://7xkm02.com1.z0.glb.clouddn.com/page2.png'}}
+                                source={{uri: 'http://ww3.sinaimg.cn/large/4c8b519djw1f6pl2qtmjhj208w0dyq2t.jpg'}}
                             />
                         </View>
                         <View class="page">
                             <Image
                                 class="img"
-                                source={{uri: 'http://7xkm02.com1.z0.glb.clouddn.com/page3.png'}}
+                                source={{uri: 'http://ww3.sinaimg.cn/large/4c8b519djw1f6pl2qt64yj208w0dyjra.jpg'}}
                             />
                         </View>
                     </Carousel>
