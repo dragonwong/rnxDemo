@@ -29,6 +29,12 @@ let listData = ds.cloneWithRows([
         },
     },
     {
+        text: '下拉列表 DropDown',
+        onPress() {
+            RNPlus.open('CompDropDown');
+        },
+    },
+    {
         text: '数字 Number',
         onPress() {
             RNPlus.open('CompNumber');

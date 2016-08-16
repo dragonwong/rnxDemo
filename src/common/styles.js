@@ -23,3 +23,14 @@ export const STYLE_BUTTON = {
     borderColor: '#ccc',
     backgroundColor: "#fff",
 };
+
+export const STYLE_INTRO = {
+    margin: 10,
+    padding: 10,
+    borderRadius: 8,
+    backgroundColor: '#ccc',
+};
+
+export const STYLE_INTRO_TEXT = {
+    color: '#222',
+};

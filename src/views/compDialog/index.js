@@ -12,6 +12,8 @@ import Dialog, {Alert, Confirm} from 'rnx-ui-dialog';
 import {
     STYLE_ALL,
     STYLE_ITEM,
+    STYLE_INTRO,
+    STYLE_INTRO_TEXT,
 } from '../../common/styles.js';
 
 var counter = 0;
@@ -59,16 +61,8 @@ class CompDialog extends QView {
     styles = {
         all: STYLE_ALL,
         item: STYLE_ITEM,
-
-        intro: {
-            margin: 10,
-            padding: 10,
-            borderRadius: 8,
-            backgroundColor: '#ccc',
-        },
-        introText: {
-            color: '#222',
-        },
+        intro: STYLE_INTRO,
+        introText: STYLE_INTRO_TEXT,
     };
 
     showDialog(id) {

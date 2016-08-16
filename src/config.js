@@ -7,8 +7,9 @@ RNPlus.defaults.appName = 'rnxDemo';
 // 配置首页
 // RNPlus.defaults.indexView = 'CompAccordion';
 // RNPlus.defaults.indexView = 'CompCalendar';
-RNPlus.defaults.indexView = 'CompCarousel';
+// RNPlus.defaults.indexView = 'CompCarousel';
 // RNPlus.defaults.indexView = 'CompDialog';
+// RNPlus.defaults.indexView = 'CompDropDown';
 // RNPlus.defaults.indexView = 'CompNumber';
 // RNPlus.defaults.indexView = 'Components';
 // redux 配置项
