@@ -30,3 +30,4 @@ import './views/compCarousel';
 import './views/compDialog';
 import './views/compDropDown';
 import './views/compNumber';
+import './views/compPopover';

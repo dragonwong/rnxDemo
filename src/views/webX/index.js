@@ -6,9 +6,14 @@ import {
     ListView,
     TouchableHighlight,
     TouchableWithoutFeedback,
+    ScrollView,
 } from 'react-native';
+import {
+    COLOR_LIST_BORDER,
+    STYLE_ALL,
+    STYLE_SCROLL_VIEW,
+} from '../../common/styles.js';
 
-const LIST_BORDER_COLOR = '#C9C9C9';
 const ACTIVED_BG_COLOR = '#D9D9D9';
 
 let navBarOpts = {
@@ -24,16 +29,15 @@ class WebX extends QView {
     };
 
     styles = {
+        all: STYLE_ALL,
+        scrollView: STYLE_SCROLL_VIEW,
+
         Text: {
             color: '#CAAD45'
         },
 
-        list: {
-            flex: 1,
-            backgroundColor: '#F0EFF5',
-        },
         item: {
-            borderBottomColor: LIST_BORDER_COLOR,
+            borderBottomColor: COLOR_LIST_BORDER,
             borderBottomWidth: 1,
             height: 40,
             justifyContent: 'center',
@@ -110,12 +114,10 @@ class WebX extends QView {
     render() {
 
         return (
-            <View style={{
-                flex: 1,
-            }}>
+            <View class="all">
                 <RNPlus.Router.NavBar opts={navBarOpts} />
-                <View class="list">
-                    <View class="item item-gap">
+                <ScrollView class="scrollView">
+                    <View class="item">
                         <Text>
                             通过 className 写样式
                         </Text>
@@ -170,7 +172,7 @@ class WebX extends QView {
                             函数自动 bind
                         </Text>
                     </TouchableHighlight>
-                </View>
+                </ScrollView>
             </View>
         )
     }

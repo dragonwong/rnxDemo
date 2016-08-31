@@ -8,7 +8,6 @@ import CustomAlert from './customAlert.js';
 let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 let listData = ds.cloneWithRows([
     {
-        gap: true,
         text: 'popup',
         onPress() {
             RNPlus.popup.show({

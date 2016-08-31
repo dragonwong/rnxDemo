@@ -4,7 +4,6 @@ import tester from '../../tester.js';
 let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 let listData = ds.cloneWithRows([
     {
-        gap: true,
         text: '改标题 setTitle',
         onPress() {
             this.props.view.refs.navBar.setState({

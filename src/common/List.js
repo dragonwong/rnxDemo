@@ -6,14 +6,13 @@ import {
 
 import {
     STYLE_ITEM,
+    STYLE_SCROLL_VIEW
 } from './styles.js';
 
 
 class List extends QComponent {
     styles = {
-        list: {
-            backgroundColor: '#F0EFF5',
-        },
+        list: STYLE_SCROLL_VIEW,
         item: STYLE_ITEM,
         'list-item': {
             justifyContent: 'center',

@@ -1,4 +1,5 @@
-const LIST_BORDER_COLOR = '#C9C9C9';
+export const COLOR_LIST_BORDER = '#C9C9C9';
+export const COLOR_PRESS = '#F9F9F9';
 
 
 export const STYLE_ALL = {
@@ -6,9 +7,14 @@ export const STYLE_ALL = {
     backgroundColor: '#F0EFF5',
 };
 
+export const STYLE_SCROLL_VIEW = {
+    flex: 1,
+    paddingTop: 20,
+};
+
 export const STYLE_ITEM = {
     flexDirection: 'row',
-    borderBottomColor: LIST_BORDER_COLOR,
+    borderBottomColor: COLOR_LIST_BORDER,
     borderBottomWidth: 1,
     padding: 10,
     alignItems: 'center',

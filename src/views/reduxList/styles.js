@@ -1,5 +1,7 @@
-import { STYLE_ALL } from '../../common/styles.js';
-const LIST_BORDER_COLOR = '#C9C9C9';
+import {
+    STYLE_ALL,
+    COLOR_LIST_BORDER,
+} from '../../common/styles.js';
 
 export default {
     all: STYLE_ALL,
@@ -13,7 +15,7 @@ export default {
                 height: 100,
                 alignItems: 'center',
                 backgroundColor: '#fff',
-                borderBottomColor: LIST_BORDER_COLOR,
+                borderBottomColor: COLOR_LIST_BORDER,
                 borderBottomWidth: 1,
                 paddingLeft: 10,
                 paddingRight: 10,

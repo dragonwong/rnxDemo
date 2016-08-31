@@ -12,7 +12,6 @@ let listData = ds.cloneWithRows([
     // },
 
     {
-        gap: true,
         text: '路由 Router',
         onPress() {
             RNPlus.open('PageA');

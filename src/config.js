@@ -11,6 +11,7 @@ RNPlus.defaults.appName = 'rnxDemo';
 // RNPlus.defaults.indexView = 'CompDialog';
 // RNPlus.defaults.indexView = 'CompDropDown';
 // RNPlus.defaults.indexView = 'CompNumber';
+// RNPlus.defaults.indexView = 'CompPopover';
 // RNPlus.defaults.indexView = 'Components';
 // redux 配置项
 RNPlus.defaults.redux = {

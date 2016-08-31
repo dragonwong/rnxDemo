@@ -8,6 +8,7 @@ import {
     STYLE_ALL,
     STYLE_ITEM,
     STYLE_BUTTON,
+    STYLE_SCROLL_VIEW,
 } from '../../common/styles.js';
 
 import Number from 'rnx-ui-number';
@@ -44,9 +45,7 @@ class CompNumber extends QView {
         return (
             <View class="all">
                 <RNPlus.Router.NavBar opts={navBarOpts} />
-                <ScrollView style={{
-                    flex: 1,
-                }}>
+                <ScrollView style={STYLE_SCROLL_VIEW}>
                     <View class="title">
                         <Text>随机赋值</Text>
                     </View>

@@ -13,6 +13,7 @@
     "rnx-ui-carousel": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-carousel.git",
     "rnx-ui-dialog": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-dialog.git",
     "rnx-ui-dropdown": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-dropdown.git",
-    "rnx-ui-number": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-number.git"
+    "rnx-ui-number": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-number.git",
+    "rnx-ui-popover": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-popover.git"
   }
 }

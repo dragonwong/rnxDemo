@@ -2,9 +2,6 @@ import {
     STYLE_ALL,
 } from '../../common/styles.js';
 
-const LIST_BORDER_COLOR = '#C9C9C9';
-const BUTTON_WIDTH = 20;
-
 export default {
     all: STYLE_ALL,
 

@@ -10,9 +10,7 @@ sceneConfigSetEdgeWidth.gestures.pop.edgeHitWidth = 200;
 
 let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 let listData = ds.cloneWithRows([
-
     {
-        gap: true,
         text: '配置切换动画',
         onPress() {
             RNPlus.open('SceneBlank', {
