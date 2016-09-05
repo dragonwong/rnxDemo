@@ -4,7 +4,7 @@ import {
     TouchableHighlight,
 } from 'react-native';
 
-class CustomAlert extends QComponent {
+class CustomAlert extends PComponent {
     styles = {
         dialog: {
             backgroundColor: '#fff',

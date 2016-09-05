@@ -1,6 +1,6 @@
 import render from './render.js';
 
-class Scene extends QView {
+class Scene extends PView {
     render = render;
 
 	// Events

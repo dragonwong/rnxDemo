@@ -1,7 +1,7 @@
 import tester from '../../tester.js';
 import render from './render.js';
 
-class SceneAndroidBack extends QView {
+class SceneAndroidBack extends PView {
     render = render;
 
     preventBackByAndroidKey = false;

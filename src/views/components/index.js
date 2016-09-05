@@ -1,6 +1,6 @@
 import render from './render.js';
 
-class Components extends QView {
+class Components extends PView {
     render = render;
 };
 

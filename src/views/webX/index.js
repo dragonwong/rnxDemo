@@ -21,7 +21,7 @@ let navBarOpts = {
     title: 'WebX',
 };
 
-class WebX extends QView {
+class WebX extends PView {
 
     routerPlugin = {
         leftButtonText: '',

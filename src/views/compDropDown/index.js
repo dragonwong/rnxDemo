@@ -18,7 +18,7 @@ const navBarOpts = {
     title: 'Dropdown',
 };
 
-class CompDropDown extends QView {
+class CompDropDown extends PView {
 
     constructor (props) {
         super(props)

@@ -2,7 +2,7 @@ import tester from '../../tester.js';
 
 import render from './render.js';
 
-class NavBar extends QView {
+class NavBar extends PView {
     render = render;
 
     // Events

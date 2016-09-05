@@ -15,7 +15,7 @@ const navBarOpts = {
     title: 'Carousel',
 };
 
-class CompCarousel extends QView {
+class CompCarousel extends PView {
 
     styles = {
         all: STYLE_ALL,

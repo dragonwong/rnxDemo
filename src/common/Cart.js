@@ -8,7 +8,7 @@ import {
     clearSelect,
 } from '../actions';
 
-class Cart extends QComponent {
+class Cart extends PComponent {
     static reduxPlugin = {
         mapStateToProps: ['total'],
         mapDispatchToProps: {

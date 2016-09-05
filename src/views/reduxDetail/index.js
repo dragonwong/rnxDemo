@@ -1,7 +1,7 @@
 import render from './render.js';
 import styles from './styles.js';
 
-class ReduxDetail extends QView {
+class ReduxDetail extends PView {
     render = render;
     styles = styles;
 

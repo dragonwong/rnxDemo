@@ -4,7 +4,7 @@ import {
 import render from './render.js';
 import styles from './styles.js';
 
-class ReduxList extends QView {
+class ReduxList extends PView {
     render = render;
     styles = styles;
 

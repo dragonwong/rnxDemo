@@ -51,7 +51,7 @@ const accordionData = [{
     )
 }];
 
-class CompAccordion extends QView {
+class CompAccordion extends PView {
 
     constructor (props) {
         super(props)

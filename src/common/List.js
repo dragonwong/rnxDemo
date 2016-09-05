@@ -10,7 +10,7 @@ import {
 } from './styles.js';
 
 
-class List extends QComponent {
+class List extends PComponent {
     styles = {
         list: STYLE_SCROLL_VIEW,
         item: STYLE_ITEM,

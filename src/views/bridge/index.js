@@ -2,7 +2,7 @@ import { DeviceEventEmitter } from 'react-native';
 import tester from '../../tester.js';
 import render from './render.js';
 
-class Bridge extends QView {
+class Bridge extends PView {
     render = render;
 
     // Events

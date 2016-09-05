@@ -24,7 +24,7 @@ const demoList = [
     'ActionSheet',
 ];
 
-class CompPopover extends QView {
+class CompPopover extends PView {
     constructor (props) {
         super(props)
 

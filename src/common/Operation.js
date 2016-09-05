@@ -13,7 +13,7 @@ const BUTTON_WIDTH = 20;
 const BUTTON_COLOR = '#3385ff';
 const BUTTON_COLOR_UNDERLAY = '#66a3ff';
 
-class Operation extends QComponent {
+class Operation extends PComponent {
     static reduxPlugin = {
         mapDispatchToProps: {
             addItemCount,

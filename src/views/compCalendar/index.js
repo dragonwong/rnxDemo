@@ -14,7 +14,7 @@ const navBarOpts = {
 };
 
 
-class CompCalendar extends QView {
+class CompCalendar extends PView {
     constructor(props) {
         super(props)
 

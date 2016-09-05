@@ -37,7 +37,7 @@ const dialogs = {
 };
 const dialogsKeys = Object.keys(dialogs);
 
-class CompDialog extends QView {
+class CompDialog extends PView {
 
     constructor (props) {
         super(props)

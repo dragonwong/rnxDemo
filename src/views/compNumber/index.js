@@ -18,7 +18,7 @@ const navBarOpts = {
     title: 'Number',
 };
 
-class CompNumber extends QView {
+class CompNumber extends PView {
 
     constructor (props) {
         super(props)

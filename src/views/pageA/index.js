@@ -1,7 +1,7 @@
 import tester from '../../tester.js';
 import render from './render.js';
 
-class PageA extends QView {
+class PageA extends PView {
     render = render;
 
     // Events

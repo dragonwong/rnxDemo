@@ -1,7 +1,7 @@
 import tester from '../../tester.js';
 import render from './render.js';
 
-class SceneBlank extends QView {
+class SceneBlank extends PView {
     render = render;
 
     // Events
