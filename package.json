@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "react": "15.2.1",
-    "react-native": "git+ssh://git@git.jimubox.com/react-native/pintec-react-native.git#dev",
+    "react-native": "git+ssh://git@git.jimubox.com/react-native/pintec-react-native.git#demo",
     "rnplus": "git+ssh://git@git.jimubox.com/react-native/rnplus.git",
     "rnx-ui-accordion": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-accordion.git",
     "rnx-ui-calendar": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-calendar.git",

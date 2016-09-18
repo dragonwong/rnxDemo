@@ -1,4 +1,5 @@
-'use strict';
+// 引入 rnplus
+import 'rnplus';
 
 import './config';
 
