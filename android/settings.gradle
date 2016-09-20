@@ -1,3 +1,5 @@
 rootProject.name = 'rnxDemo'
 
-include ':app'
+include ':app', ':ReactAndroid'
+
+project(':ReactAndroid').projectDir = new File('../node_modules/react-native/ReactAndroid')
