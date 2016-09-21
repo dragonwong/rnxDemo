@@ -1,7 +1,7 @@
 import {
     ListView,
 } from 'react-native';
-import * as types from '../actions/constants';
+import * as types from '../action/constant';
 
 const ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
 

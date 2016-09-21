@@ -10,7 +10,7 @@ import {
 
 import {
   clearSelect,
-} from '../actions';
+} from '../action';
 
 class Cart extends PComponent {
   static reduxPlugin = {

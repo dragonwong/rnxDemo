@@ -7,7 +7,7 @@ import {
 import RNPlus, {
   PView,
 } from 'rnplus';
-import { updateList } from '../../actions';
+import { updateList } from '../../action';
 import Cart from '../../common/Cart.js';
 import styles from './styles.js';
 import ListItem from './ListItem.js';

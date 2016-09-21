@@ -1,4 +1,4 @@
-import * as types from './constants';
+import * as types from './constant';
 
 // 模拟 fetch 的异步更新列表方法
 export function updateList() {

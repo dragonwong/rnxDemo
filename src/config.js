@@ -1,5 +1,5 @@
 import RNPlus from 'rnplus';
-import reducer from './reducers';
+import reducer from './reducer';
 
 // 配置 hybridId
 RNPlus.defaults.hybridId = 'rnxDemo';

@@ -10,7 +10,7 @@ import {
 import {
     addItemCount,
     reduceItemCount,
-} from '../actions';
+} from '../action';
 
 const BUTTON_WIDTH = 20;
 const BUTTON_COLOR = '#3385ff';
