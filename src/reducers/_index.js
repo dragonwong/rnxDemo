@@ -1,11 +1,12 @@
-import profile from './profile'
-import users from './users'
-import your from './your'
+import RNPlus from 'rnplus';
+import profile from './profile';
+import users from './users';
+import your from './your';
 
 const { combineReducers } = RNPlus.Redux;
 
 export default combineReducers({
-    profile,
-    users,
-    your
-})
+  profile,
+  users,
+  your,
+});

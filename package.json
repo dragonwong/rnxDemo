@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "eslint": "eslint ./src *.js || exit 0"
   },
   "dependencies": {
     "react": "15.2.1",
@@ -16,5 +17,8 @@
     "rnx-ui-dropdown": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-dropdown.git",
     "rnx-ui-number": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-number.git",
     "rnx-ui-popover": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-popover.git"
+  },
+  "devDependencies": {
+    "eslint-config-pintec": "*"
   }
 }
