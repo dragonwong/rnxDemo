@@ -65,6 +65,12 @@ const listData = ds.cloneWithRows([
       RNPlus.open('IconFont');
     },
   },
+  {
+    text: '图片 Image',
+    onPress() {
+      RNPlus.open('ImageDemo');
+    },
+  },
 ]);
 
 export default listData;

@@ -34,3 +34,5 @@ import './view/CompNumber';
 import './view/CompPopover';
 // 字体
 import './view/IconFont';
+// 图片
+import './view/ImageDemo';
