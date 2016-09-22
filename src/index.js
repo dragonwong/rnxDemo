@@ -32,3 +32,5 @@ import './view/CompDialog';
 import './view/CompDropDown';
 import './view/CompNumber';
 import './view/CompPopover';
+// 字体
+import './view/IconFont';

@@ -38,10 +38,6 @@ class CompPopover extends PView {
     };
   }
 
-  noop() {
-
-  }
-
   change(index, value) {
     const state = {};
     state[`popover${index}`] = value;
@@ -70,10 +66,6 @@ class CompPopover extends PView {
       alignItems: 'center',
     },
   };
-
-  showDialog() {
-
-  }
 
   render() {
     return (

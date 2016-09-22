@@ -44,7 +44,7 @@ const listData = ds.cloneWithRows([
 
   {
     gap: true,
-    text: 'ReduxList',
+    text: 'Redux 示例 ReduxList',
     onPress() {
       RNPlus.open('ReduxList');
     },
@@ -52,9 +52,17 @@ const listData = ds.cloneWithRows([
 
   {
     gap: true,
-    text: 'Components',
+    text: '组件 Components',
     onPress() {
       RNPlus.open('Components');
+    },
+  },
+
+  {
+    gap: true,
+    text: '字体 IconFont',
+    onPress() {
+      RNPlus.open('IconFont');
     },
   },
 ]);

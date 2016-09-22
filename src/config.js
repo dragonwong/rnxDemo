@@ -6,14 +6,7 @@ RNPlus.defaults.hybridId = 'rnxDemo';
 // 配置应用名
 RNPlus.defaults.appName = 'rnxDemo';
 // 配置首页
-// RNPlus.defaults.indexView = 'CompAccordion';
-// RNPlus.defaults.indexView = 'CompCalendar';
-// RNPlus.defaults.indexView = 'CompCarousel';
-// RNPlus.defaults.indexView = 'CompDialog';
-// RNPlus.defaults.indexView = 'CompDropDown';
-// RNPlus.defaults.indexView = 'CompNumber';
-// RNPlus.defaults.indexView = 'CompPopover';
-// RNPlus.defaults.indexView = 'Components';
+// RNPlus.defaults.indexView = 'IconFont';
 // redux 配置项
 RNPlus.defaults.redux = {
   /**
