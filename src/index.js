@@ -1,5 +1,6 @@
 // 引入 rnplus
 import 'rnplus';
+import 'rnplus-plugin-webx';
 
 import './config';
 

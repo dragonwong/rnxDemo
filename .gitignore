@@ -2,6 +2,10 @@
 #
 .DS_Store
 
+# Dev
+rnplus/
+rnplus-plugin-webx/
+
 # Xcode
 #
 build/
