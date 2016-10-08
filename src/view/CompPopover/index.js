@@ -17,7 +17,6 @@ import {
 } from '../../common/styles.js';
 
 const navBarOpts = {
-    // 标题内容，默认空字符串
   title: 'Popover',
 };
 
@@ -42,10 +41,6 @@ class CompPopover extends PView {
     const state = {};
     state[`popover${index}`] = value;
     this.setState(state);
-  }
-
-  onLayout(event) {
-    this.vieHeight = event.nativeEvent.layout.height;
   }
 
   styles = {

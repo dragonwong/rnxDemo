@@ -14,8 +14,6 @@ class CustomAlert extends PComponent {
       backgroundColor: '#fff',
       width: '60vw',
       borderRadius: 5,
-      // borderColor: 'red',
-      // borderWidth: 1,
       overflow: 'hidden',
     },
     'dialog-text': {

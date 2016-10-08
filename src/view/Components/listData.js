@@ -45,6 +45,12 @@ const listData = ds.cloneWithRows([
       RNPlus.open('CompPopover');
     },
   },
+  {
+    text: '提示浮层 ToolTip',
+    onPress() {
+      RNPlus.open('CompToolTip');
+    },
+  },
 ]);
 
 export default listData;
