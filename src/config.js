@@ -4,11 +4,10 @@ import reducer from './reducer';
 // 添加 RNPlus 插件：webx
 RNPlus.defaults.globalPlugins.push('webx');
 
-// 配置 hybridId
-RNPlus.defaults.hybridId = 'rnxDemo';
+// 配置 projectId
+RNPlus.defaults.projectId = 'rnxDemo';
 // 配置应用名
-// RNPlus.defaults.appName = 'rnxDemo';
-RNPlus.defaults.appName = 'merak';
+RNPlus.defaults.appName = 'rnxDemo';
 // 配置首页
 // RNPlus.defaults.indexView = 'CompToolTip';
 // redux 配置项
