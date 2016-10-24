@@ -51,6 +51,12 @@ const listData = ds.cloneWithRows([
       RNPlus.open('CompToolTip');
     },
   },
+  {
+    text: '滚动组件 ScrollView',
+    onPress() {
+      RNPlus.open('CompScrollView');
+    },
+  },
 ]);
 
 export default listData;

@@ -7,7 +7,10 @@ import {
 import RNPlus, {
   PView,
 } from 'rnplus';
-import imageSet from 'PImageSet';
+import {
+  imgShy,
+  imgHandsome,
+} from 'PImageSet';
 import {
     STYLE_ALL,
     STYLE_SCROLL_VIEW,
@@ -33,8 +36,8 @@ class ImageDemo extends PView {
       <View class="all">
         <RNPlus.Router.NavBar opts={navBarOpts} />
         <ScrollView class="scrollView">
-          <Image class="image" resizeMode="cover" source={{ uri: imageSet.shy }} />
-          <Image class="image" resizeMode="cover" source={{ uri: imageSet.handsome }} />
+          <Image class="image" resizeMode="cover" source={imgShy} />
+          <Image class="image" resizeMode="cover" source={imgHandsome} />
         </ScrollView>
       </View>
     );

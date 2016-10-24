@@ -34,6 +34,7 @@ import './view/CompDropDown';
 import './view/CompNumber';
 import './view/CompPopover';
 import './view/CompToolTip';
+import './view/CompScrollView';
 // 字体
 import './view/IconFont';
 // 图片

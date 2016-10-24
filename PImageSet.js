@@ -2,42 +2,21 @@
  * @providesModule PImageSet
  */
 
-// const entriesMap = Object.entries({
-//   shy: 'shy.jpg',
-//   handsome: 'handsome.jpg',
-// });
-//
-// const DEV_PATH = './asset/image/';
-// const PRD_URL = 'https://foo/bar/';
-//
-// const ffff = require('./asset/image/handsome.jpg')
-//
-// // dev
-// const devImageMap = (() => {
-//   const res = {};
-//   for (const [key, value] of entriesMap) {
-//     // res[key] = require(DEV_PATH + value);
-//     res[key] = ffff;
-//   }
-//   return res;
-// })();
-//
-// export default devImageMap;
+// 开发环境
+const imgLoadingCicleDark = require('./asset/image/loadingCicleDark.png');
+const imgLoadingPointerDark = require('./asset/image/loadingPointerDark.png');
 
-// // prd
-// const prdImageMap = (() => {
-//   const res = {};
-//   for (const [key, value] of entriesMap) {
-//     res[key] = {
-//       uri: PRD_URL + value,
-//     };
-//   }
-//   return res;
-// })();
-//
-// export default prdImageMap;
+// 线上环境
+const imgShy = {
+  uri: 'https://github.com/dragonwong/excited/raw/master/img/shy.jpg',
+};
+const imgHandsome = {
+  uri: 'https://github.com/dragonwong/excited/raw/master/img/handsome.jpg',
+};
 
-export default {
-  shy: 'https://github.com/dragonwong/excited/raw/master/img/shy.jpg',
-  handsome: 'https://github.com/dragonwong/excited/raw/master/img/handsome.jpg',
+export {
+  imgShy,
+  imgHandsome,
+  imgLoadingCicleDark,
+  imgLoadingPointerDark,
 };
