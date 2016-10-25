@@ -19,7 +19,8 @@
     "rnx-ui-number": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-number.git",
     "rnx-ui-popover": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-popover.git",
     "rnx-ui-tooltip": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-tooltip.git",
-    "rnx-ui-scrollview": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-scrollview.git"
+    "rnx-ui-scrollview": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-scrollview.git",
+    "rnx-ui-navbar": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-navbar.git"
   },
   "devDependencies": {
     "eslint-config-pintec": "*"

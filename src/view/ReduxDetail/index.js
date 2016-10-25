@@ -1,9 +1,17 @@
+import React from 'react';
+import {
+    View,
+    Text,
+    ActivityIndicator,
+    ScrollView,
+} from 'react-native';
 import { PView } from 'rnplus';
-import render from './render.js';
+import Cart from '../../common/Cart.js';
+import Operation from '../../common/Operation.js';
+import NavBar from '../../common/NavBar';
 import styles from './styles.js';
 
 class ReduxDetail extends PView {
-  render = render;
   styles = styles;
 
   static reduxPlugin = {
@@ -14,6 +22,7 @@ class ReduxDetail extends PView {
     super(props);
     this.state = {
       loading: true,
+      title: 'ReduxDetail',
     };
   }
 
@@ -30,15 +39,39 @@ class ReduxDetail extends PView {
             name: `产品${id}`,
             des: `产品${id}是坠吼的！`,
           },
+          title: this.props.param.name,
         });
       }, 1000);
     },
-    actived(param) {
-      this.navBar.setState({
-        title: param.name,
-      });
-    },
+    // actived(param) {
+    //   this.navBar.setState({
+    //     title: param.name,
+    //   });
+    // },
   };
+
+  render() {
+    return (
+      <View class="all">
+        <NavBar title={this.state.title} />
+        <View style={{ flex: 1 }}>
+          <ScrollView class="main">
+            {
+              this.state.loading ? <ActivityIndicator class="loading" /> :
+                <View class="detail">
+                  <Text class="title">{this.state.detailData.name}</Text>
+                  <Text>{this.state.detailData.des}</Text>
+                  <View class="operation">
+                    <Operation class="test" index={this.props.param.id} count={this.props.listDataOrigin[this.props.param.id].count} />
+                  </View>
+                </View>
+            }
+          </ScrollView>
+          <Cart />
+        </View>
+      </View>
+    );
+  }
 }
 
 export default ReduxDetail;

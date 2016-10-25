@@ -3,7 +3,7 @@ import {
     View,
     ScrollView,
 } from 'react-native';
-import RNPlus, {
+import {
   PView,
 } from 'rnplus';
 import Icon from '../../common/Icon';
@@ -12,10 +12,7 @@ import {
     STYLE_ITEM,
     STYLE_SCROLL_VIEW,
 } from '../../common/styles.js';
-
-const navBarOpts = {
-  title: 'IconFont',
-};
+import NavBar from '../../common/NavBar';
 
 class IconFont extends PView {
   styles = {
@@ -27,7 +24,7 @@ class IconFont extends PView {
   render() {
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="IconFont" />
         <ScrollView class="scrollView">
           <View class="item">
             <Icon name="menu" />

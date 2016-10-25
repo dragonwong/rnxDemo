@@ -5,7 +5,7 @@ import {
     TouchableHighlight,
     ScrollView,
 } from 'react-native';
-import RNPlus, {
+import {
   PView,
 } from 'rnplus';
 import Accordion from 'rnx-ui-accordion';
@@ -13,12 +13,7 @@ import {
     STYLE_ALL,
     STYLE_BUTTON,
 } from '../../common/styles.js';
-
-
-const navBarOpts = {
-    // 标题内容，默认空字符串
-  title: 'Accordion',
-};
+import NavBar from '../../common/NavBar';
 
 const contentButtonStyle = {
   ...STYLE_BUTTON,
@@ -53,7 +48,7 @@ const accordionData = [{
   ),
 }];
 
-class CompAccordion extends PView {
+class RNXUIAccordion extends PView {
 
   constructor(props) {
     super(props);
@@ -82,7 +77,7 @@ class CompAccordion extends PView {
   render() {
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="Accordion" />
         <ScrollView
           style={{
             flex: 1,
@@ -124,4 +119,4 @@ class CompAccordion extends PView {
   }
 }
 
-export default CompAccordion;
+export default RNXUIAccordion;

@@ -5,7 +5,7 @@ import {
     TouchableHighlight,
     ScrollView,
 } from 'react-native';
-import RNPlus, {
+import {
   PView,
 } from 'rnplus';
 import Dialog, { Alert, Confirm } from 'rnx-ui-dialog';
@@ -15,12 +15,9 @@ import {
     STYLE_INTRO,
     STYLE_INTRO_TEXT,
 } from '../../common/styles.js';
+import NavBar from '../../common/NavBar';
 
 let counter = 0;
-const navBarOpts = {
-    // 标题内容，默认空字符串
-  title: 'Dialog',
-};
 
 const dialogs = {
   dialog0: '默认配置',
@@ -37,7 +34,7 @@ const dialogs = {
 };
 const dialogsKeys = Object.keys(dialogs);
 
-class CompDialog extends PView {
+class RNXUIDialog extends PView {
 
   constructor(props) {
     super(props);
@@ -87,7 +84,7 @@ class CompDialog extends PView {
 
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="Dialog" />
         <ScrollView
           style={{ flex: 1 }}
         >
@@ -215,4 +212,4 @@ class CompDialog extends PView {
   }
 }
 
-export default CompDialog;
+export default RNXUIDialog;

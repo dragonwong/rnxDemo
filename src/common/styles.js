@@ -1,7 +1,6 @@
 export const COLOR_LIST_BORDER = '#C9C9C9';
 export const COLOR_PRESS = '#F9F9F9';
 
-
 export const STYLE_ALL = {
   flex: 1,
   backgroundColor: '#F0EFF5',

@@ -4,7 +4,7 @@ import {
     ScrollView,
     Image,
 } from 'react-native';
-import RNPlus, {
+import {
   PView,
 } from 'rnplus';
 import {
@@ -15,10 +15,7 @@ import {
     STYLE_ALL,
     STYLE_SCROLL_VIEW,
 } from '../../common/styles.js';
-
-const navBarOpts = {
-  title: 'Image',
-};
+import NavBar from '../../common/NavBar';
 
 class ImageDemo extends PView {
   styles = {
@@ -34,7 +31,7 @@ class ImageDemo extends PView {
   render() {
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="Image" />
         <ScrollView class="scrollView">
           <Image class="image" resizeMode="cover" source={imgShy} />
           <Image class="image" resizeMode="cover" source={imgHandsome} />

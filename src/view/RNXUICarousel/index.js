@@ -1,5 +1,5 @@
 import React from 'react';
-import RNPlus, {
+import {
   PView,
 } from 'rnplus';
 import {
@@ -8,17 +8,12 @@ import {
     Dimensions,
 } from 'react-native';
 import Carousel from 'rnx-ui-carousel';
-
+import NavBar from '../../common/NavBar';
 import {
     STYLE_ALL,
 } from '../../common/styles.js';
 
-const navBarOpts = {
-    // 标题内容，默认空字符串
-  title: 'Carousel',
-};
-
-class CompCarousel extends PView {
+class RNXUICarousel extends PView {
 
   styles = {
     all: STYLE_ALL,
@@ -35,7 +30,7 @@ class CompCarousel extends PView {
   render() {
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="Carousel" />
         <View style={{ flex: 1 }}>
           <Carousel showPagination>
             <View class="page">
@@ -63,4 +58,4 @@ class CompCarousel extends PView {
   }
 }
 
-export default CompCarousel;
+export default RNXUICarousel;

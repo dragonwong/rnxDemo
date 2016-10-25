@@ -9,7 +9,7 @@ RNPlus.defaults.projectId = 'rnxDemo';
 // 配置应用名
 RNPlus.defaults.appName = 'rnxDemo';
 // 配置首页
-// RNPlus.defaults.indexView = 'CompToolTip';
+// RNPlus.defaults.indexView = 'RNXUINavBar';
 // redux 配置项
 RNPlus.defaults.redux = {
   /**

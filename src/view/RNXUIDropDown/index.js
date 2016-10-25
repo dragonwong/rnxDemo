@@ -4,7 +4,7 @@ import {
     Text,
     ScrollView,
 } from 'react-native';
-import RNPlus, {
+import {
   PView,
 } from 'rnplus';
 import DropDown, { DropDownTrigger } from 'rnx-ui-dropdown';
@@ -14,14 +14,9 @@ import {
     STYLE_INTRO,
     STYLE_INTRO_TEXT,
 } from '../../common/styles.js';
+import NavBar from '../../common/NavBar';
 
-
-const navBarOpts = {
-    // 标题内容，默认空字符串
-  title: 'Dropdown',
-};
-
-class CompDropDown extends PView {
+class RNXUIDropDown extends PView {
 
   constructor(props) {
     super(props);
@@ -64,7 +59,7 @@ class CompDropDown extends PView {
 
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="Dropdown" />
         <ScrollView style={{ flex: 1 }}>
           <View class="intro">
             <Text class="introText">
@@ -86,4 +81,4 @@ class CompDropDown extends PView {
   }
 }
 
-export default CompDropDown;
+export default RNXUIDropDown;

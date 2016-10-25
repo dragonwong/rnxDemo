@@ -5,7 +5,7 @@ import {
   ScrollView,
   TouchableHighlight,
 } from 'react-native';
-import RNPlus, {
+import {
   PView,
 } from 'rnplus';
 import ToolTip from 'rnx-ui-tooltip';
@@ -15,17 +15,15 @@ import {
   STYLE_SCROLL_VIEW,
   COLOR_PRESS,
 } from '../../common/styles.js';
+import NavBar from '../../common/NavBar';
 
 const demoList = [
   '默认配置',
   '配置遮罩层样式',
   '配置文本样式',
 ];
-const navBarOpts = {
-  title: 'ToolTip',
-};
 
-class CompToolTip extends PView {
+class RNXUIToolTip extends PView {
 
   constructor(props) {
     super(props);
@@ -55,7 +53,7 @@ class CompToolTip extends PView {
   render() {
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="ToolTip" />
         <ScrollView class="scrollView">
           {
             demoList.map((item, index) => (
@@ -89,4 +87,4 @@ class CompToolTip extends PView {
   }
 }
 
-export default CompToolTip;
+export default RNXUIToolTip;

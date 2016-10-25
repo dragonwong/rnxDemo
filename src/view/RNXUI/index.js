@@ -3,8 +3,8 @@ import {
 } from 'rnplus';
 import render from './render.js';
 
-class Components extends PView {
+class RNXUI extends PView {
   render = render;
 }
 
-export default Components;
+export default RNXUI;

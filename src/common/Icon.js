@@ -7,6 +7,7 @@ import {
 const ICON_SOURCE = {
   menu: 'f0c9',
   'angle-left': 'f104',
+  'commenting-o': 'f27b',
 };
 const ICON_MAP = (() => {
   const res = {};
@@ -23,22 +24,20 @@ const styles = StyleSheet.create({
 });
 
 function Icon(props) {
-  const customStyle = {};
-  if (props.color) {
-    customStyle.color = props.color;
-  }
-  if (props.fontSize) {
-    customStyle.fontSize = props.fontSize;
-  }
   return (
-    <Text style={[styles.icon, customStyle]}>{ICON_MAP[props.name]}</Text>
+    <Text style={[styles.icon, props.style]}>{ICON_MAP[props.name]}</Text>
   );
 }
 
 Icon.propTypes = {
+  // 字符名字
   name: PropTypes.string.isRequired,
-  color: PropTypes.string,
-  fontSize: PropTypes.number,
+  // 自定义样式
+  style: Text.propTypes.style,
+};
+Icon.defaultProps = {
+  name: '',
+  style: null,
 };
 
 export default Icon;

@@ -6,17 +6,13 @@ import {
   ScrollView,
   Alert,
 } from 'react-native';
-import RNPlus, { PView } from 'rnplus';
+import { PView } from 'rnplus';
 import {
   COLOR_LIST_BORDER,
   STYLE_ALL,
   STYLE_SCROLL_VIEW,
 } from '../../common/styles.js';
-
-const navBarOpts = {
-  // 标题内容，默认空字符串
-  title: 'WebX',
-};
+import NavBar from '../../common/NavBar';
 
 class WebX extends PView {
 
@@ -111,7 +107,7 @@ class WebX extends PView {
   render() {
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="WebX" />
         <ScrollView class="scrollView">
           <View class="item">
             <Text>

@@ -3,20 +3,16 @@ import {
     View,
     Alert,
 } from 'react-native';
-import RNPlus, {
+import {
   PView,
 } from 'rnplus';
 import Calendar from 'rnx-ui-calendar';
 import {
     STYLE_ALL,
 } from '../../common/styles.js';
+import NavBar from '../../common/NavBar';
 
-const navBarOpts = {
-    // 标题内容，默认空字符串
-  title: 'Calendar',
-};
-
-class CompCalendar extends PView {
+class RNXUICalendar extends PView {
   constructor(props) {
     super(props);
 
@@ -70,7 +66,7 @@ class CompCalendar extends PView {
   render() {
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="Calendar" />
         <View style={{ flex: 1 }}>
           <Calendar
             holiday={this.state.holiday}
@@ -86,4 +82,4 @@ class CompCalendar extends PView {
   }
 }
 
-export default CompCalendar;
+export default RNXUICalendar;

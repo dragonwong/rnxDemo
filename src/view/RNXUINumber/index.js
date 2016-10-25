@@ -5,7 +5,7 @@ import {
     TouchableHighlight,
     ScrollView,
 } from 'react-native';
-import RNPlus, {
+import {
   PView,
 } from 'rnplus';
 import Number from 'rnx-ui-number';
@@ -15,14 +15,9 @@ import {
     STYLE_BUTTON,
     STYLE_SCROLL_VIEW,
 } from '../../common/styles.js';
+import NavBar from '../../common/NavBar';
 
-
-const navBarOpts = {
-    // 标题内容，默认空字符串
-  title: 'Number',
-};
-
-class CompNumber extends PView {
+class RNXUINumber extends PView {
 
   constructor(props) {
     super(props);
@@ -48,7 +43,7 @@ class CompNumber extends PView {
   render() {
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="Number" />
         <ScrollView style={STYLE_SCROLL_VIEW}>
           <View class="title">
             <Text>随机赋值</Text>
@@ -107,4 +102,4 @@ class CompNumber extends PView {
 
 }
 
-export default CompNumber;
+export default RNXUINumber;

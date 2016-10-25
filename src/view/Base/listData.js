@@ -52,9 +52,9 @@ const listData = ds.cloneWithRows([
 
   {
     gap: true,
-    text: '组件 Components',
+    text: '组件 RNX UI',
     onPress() {
-      RNPlus.open('Components');
+      RNPlus.open('RNXUI');
     },
   },
 

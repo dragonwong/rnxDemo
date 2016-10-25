@@ -4,7 +4,7 @@ import {
   Text,
   Image,
 } from 'react-native';
-import RNPlus, {
+import {
   PView,
 } from 'rnplus';
 import {
@@ -18,6 +18,7 @@ import {
   STYLE_SCROLL_VIEW,
 } from '../../common/styles.js';
 import styles from './style.js';
+import NavBar from '../../common/NavBar';
 
 const demoList = ((len) => {
   let i = 0;
@@ -29,11 +30,7 @@ const demoList = ((len) => {
   return res;
 })(30);
 
-const navBarOpts = {
-  title: 'ToolTip',
-};
-
-class CompScrollView extends PView {
+class RNXUIScrollView extends PView {
 
   constructor(props) {
     super(props);
@@ -67,7 +64,7 @@ class CompScrollView extends PView {
   render() {
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="ToolTip" />
         <ScrollView
           class="scrollView"
           refreshControl={
@@ -145,4 +142,4 @@ class CompScrollView extends PView {
   }
 }
 
-export default CompScrollView;
+export default RNXUIScrollView;

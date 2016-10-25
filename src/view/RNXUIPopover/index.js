@@ -5,7 +5,7 @@ import {
     TouchableHighlight,
     ScrollView,
 } from 'react-native';
-import RNPlus, {
+import {
   PView,
 } from 'rnplus';
 import Popover, { ActionSheet } from 'rnx-ui-popover';
@@ -15,10 +15,7 @@ import {
     STYLE_ITEM,
     STYLE_SCROLL_VIEW,
 } from '../../common/styles.js';
-
-const navBarOpts = {
-  title: 'Popover',
-};
+import NavBar from '../../common/NavBar';
 
 const demoList = [
   '默认配置',
@@ -26,7 +23,7 @@ const demoList = [
   'ActionSheet',
 ];
 
-class CompPopover extends PView {
+class RNXUIPopover extends PView {
   constructor(props) {
     super(props);
 
@@ -65,7 +62,7 @@ class CompPopover extends PView {
   render() {
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="Popover" />
         <ScrollView class="scrollView">
           {
             demoList.map((item, index) => (
@@ -141,4 +138,4 @@ class CompPopover extends PView {
   }
 }
 
-export default CompPopover;
+export default RNXUIPopover;

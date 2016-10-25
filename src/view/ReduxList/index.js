@@ -11,10 +11,7 @@ import { updateList } from '../../action';
 import Cart from '../../common/Cart.js';
 import styles from './styles.js';
 import ListItem from './ListItem.js';
-
-const navBarOpts = {
-  title: 'ReduxList',
-};
+import NavBar from '../../common/NavBar';
 
 class ReduxList extends PView {
   styles = styles;
@@ -56,7 +53,7 @@ class ReduxList extends PView {
   render() {
     return (
       <View class="all">
-        <RNPlus.Router.NavBar opts={navBarOpts} />
+        <NavBar title="ReduxList" />
         <View style={{ flex: 1 }}>
           <View class="main">
             <ListView

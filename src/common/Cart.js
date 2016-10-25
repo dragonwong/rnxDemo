@@ -13,6 +13,11 @@ import {
 } from '../action';
 
 class Cart extends PComponent {
+  constructor(props) {
+    super(props);
+    this.onPressClear = this.onPressClear.bind(this);
+  }
+
   static reduxPlugin = {
     mapStateToProps: ['total'],
     mapDispatchToProps: {

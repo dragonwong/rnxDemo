@@ -5,23 +5,14 @@ import {
     ActivityIndicator,
     ScrollView,
 } from 'react-native';
-import RNPlus from 'rnplus';
 import Cart from '../../common/Cart.js';
 import Operation from '../../common/Operation.js';
-
-const navBarOpts = {
-  title: 'ReduxDetail',
-};
+import NavBar from '../../common/NavBar';
 
 export default function () {
   return (
     <View class="all">
-      <RNPlus.Router.NavBar
-        opts={navBarOpts}
-        ref={(c) => {
-          this.navBar = c;
-        }}
-      />
+      <NavBar title="ReduxDetail" />
       <View style={{ flex: 1 }}>
         <ScrollView class="main">
           {

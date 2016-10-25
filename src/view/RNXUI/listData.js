@@ -6,55 +6,61 @@ const listData = ds.cloneWithRows([
   {
     text: '手风琴 Accordion（需应用内置字体，详见文档）',
     onPress() {
-      RNPlus.open('CompAccordion');
+      RNPlus.open('RNXUIAccordion');
     },
   },
   {
     text: '日历 Canlendar',
     onPress() {
-      RNPlus.open('CompCalendar');
+      RNPlus.open('RNXUICalendar');
     },
   },
   {
     text: '轮播 Carousel',
     onPress() {
-      RNPlus.open('CompCarousel');
+      RNPlus.open('RNXUICarousel');
     },
   },
   {
     text: '弹框 Dialog',
     onPress() {
-      RNPlus.open('CompDialog');
+      RNPlus.open('RNXUIDialog');
     },
   },
   {
     text: '下拉列表 DropDown',
     onPress() {
-      RNPlus.open('CompDropDown');
+      RNPlus.open('RNXUIDropDown');
+    },
+  },
+  {
+    text: '导航栏 NavBar',
+    onPress() {
+      RNPlus.open('RNXUINavBar');
     },
   },
   {
     text: '数字 Number',
     onPress() {
-      RNPlus.open('CompNumber');
+      RNPlus.open('RNXUINumber');
     },
   },
   {
     text: '底部弹层 Popover',
     onPress() {
-      RNPlus.open('CompPopover');
-    },
-  },
-  {
-    text: '提示浮层 ToolTip',
-    onPress() {
-      RNPlus.open('CompToolTip');
+      RNPlus.open('RNXUIPopover');
     },
   },
   {
     text: '滚动组件 ScrollView',
     onPress() {
-      RNPlus.open('CompScrollView');
+      RNPlus.open('RNXUIScrollView');
+    },
+  },
+  {
+    text: '提示浮层 ToolTip',
+    onPress() {
+      RNPlus.open('RNXUIToolTip');
     },
   },
 ]);
