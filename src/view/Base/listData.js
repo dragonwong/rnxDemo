@@ -16,12 +16,6 @@ const listData = ds.cloneWithRows([
     },
   },
   {
-    text: '导航栏 NavBar',
-    onPress() {
-      RNPlus.open('NavBar');
-    },
-  },
-  {
     text: '弹层 Popup',
     onPress() {
       RNPlus.open('Popup');
