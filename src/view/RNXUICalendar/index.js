@@ -6,6 +6,7 @@ import {
 import {
   PView,
 } from 'rnplus';
+// import Calendar from '../../../rnx-ui/rnx-ui-calendar';
 import Calendar from 'rnx-ui-calendar';
 import {
     STYLE_ALL,
@@ -60,7 +61,7 @@ class RNXUICalendar extends PView {
   };
 
   alertDate(d) {
-    Alert.alert(d.date);
+    Alert.alert(d.date.toLocaleDateString());
   }
 
   render() {
@@ -72,7 +73,7 @@ class RNXUICalendar extends PView {
             holiday={this.state.holiday}
             active={this.state.active}
             note={this.state.note}
-            startTime="2016-09-01"
+            startTime="2016-11-01"
             endTime="2017-01-01"
             onPress={this.alertDate}
           />

@@ -8,6 +8,7 @@ import {
 import {
   PView,
 } from 'rnplus';
+// import Dialog, { Alert, Confirm } from '../../../rnx-ui/rnx-ui-dialog';
 import Dialog, { Alert, Confirm } from 'rnx-ui-dialog';
 import {
     STYLE_ALL,

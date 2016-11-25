@@ -7,6 +7,7 @@ import {
 import {
   PView,
 } from 'rnplus';
+// import DropDown, { DropDownTrigger } from '../../../rnx-ui/rnx-ui-dropdown';
 import DropDown, { DropDownTrigger } from 'rnx-ui-dropdown';
 import {
     STYLE_ALL,

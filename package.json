@@ -9,18 +9,18 @@
   "dependencies": {
     "react": "15.3.1",
     "react-native": "0.33.0",
-    "rnplus": "git+ssh://git@git.jimubox.com/react-native/rnplus.git",
+    "rnplus": "*",
     "rnplus-plugin-webx": "*",
-    "rnx-ui-accordion": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-accordion.git",
-    "rnx-ui-calendar": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-calendar.git",
-    "rnx-ui-carousel": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-carousel.git",
-    "rnx-ui-dialog": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-dialog.git",
-    "rnx-ui-dropdown": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-dropdown.git",
-    "rnx-ui-number": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-number.git",
-    "rnx-ui-popover": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-popover.git",
-    "rnx-ui-tooltip": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-tooltip.git",
-    "rnx-ui-scrollview": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-scrollview.git",
-    "rnx-ui-navbar": "git+ssh://git@git.jimubox.com/react-native/rnx-ui-navbar.git"
+    "rnx-ui-accordion": "*",
+    "rnx-ui-calendar": "*",
+    "rnx-ui-carousel": "*",
+    "rnx-ui-dialog": "*",
+    "rnx-ui-dropdown": "*",
+    "rnx-ui-number": "*",
+    "rnx-ui-popover": "*",
+    "rnx-ui-tooltip": "*",
+    "rnx-ui-scrollview": "*",
+    "rnx-ui-navbar": "*"
   },
   "devDependencies": {
     "eslint-config-pintec": "*"

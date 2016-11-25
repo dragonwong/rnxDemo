@@ -7,6 +7,7 @@ import {
     Image,
     Dimensions,
 } from 'react-native';
+// import Carousel from '../../../rnx-ui/rnx-ui-carousel';
 import Carousel from 'rnx-ui-carousel';
 import NavBar from '../../common/NavBar';
 import {

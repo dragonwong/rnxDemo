@@ -8,6 +8,7 @@ import {
 import {
   PView,
 } from 'rnplus';
+// import Number from '../../../rnx-ui/rnx-ui-number';
 import Number from 'rnx-ui-number';
 import {
     STYLE_ALL,
