@@ -1,17 +1,19 @@
-rnxDemo
-===
+# rnxDemo
 
-rnx 演示仓库
+rnx 方案演示仓库，包括 rnplus 和 rnx-ui。
 
-开始
----
+> 注意：
+>
+> 当前 react-native-x 还未开源，所以现在 react-native 还是官版的，demo 中涉及与 native 交互的部分可能失效。）
 
-1. 启动打包程序：
+## 开始
 
-    ```npm
-    npm start
-    ```
+### 1. 启动打包程序：
 
-2. 启动壳程序
+```npm
+npm start
+```
 
-    执行 `ios/rnxDemo.xcodeproj`
+### 2. 启动壳程序
+
+执行 `ios/rnxDemo.xcodeproj`
